@@ -1,0 +1,32 @@
+:root{
+  --purple50: hsl(264deg 45.45% 93.53%);
+  --purple100: hsl(261.08deg 45.68% 84.12%);
+  --purple200: hsl(261.29deg 46.27% 73.73%);
+  --purple400: hsl(261.87deg 46.72% 55.1%);
+  --purple800: hsl(261.87deg 46.72% 55.1%);
+  --white-color: hsl(0deg 0% 100%);
+  --Black30: hsl(0deg 0% 18.82%);
+  --Black2B: hsl(0deg 0% 16.86%);
+  --Black77: hsl(0deg 0% 46.67%);
+
+  
+  
+  box-sizing: border-box;
+
+  font-size: calc(1vw + 0.6em);
+}
+
+*::before,
+*::after{
+    box-sizing: inherit;
+
+}
+
+body{
+    color: var(--Black77);
+    height: 1000px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+
+}
