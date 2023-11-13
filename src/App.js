@@ -1,10 +1,15 @@
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import BasicLayout from './pages/layouts/basicLayout/BasicLayout';
 
-function App() {
+const App = () => {
   return (
-    <div>
+    <Routes>
+      <Route path="/" element={<BasicLayout/>}>
+
+      </Route>
       
-    </div>
+    </Routes>
   );
 }
 
