@@ -1,8 +1,9 @@
 import React from 'react'
+import BlurOnIcon from '@mui/icons-material/BlurOn';
 
 const LogoImage = () => {
   return (
-    <img src='' alt=''/>
+    <BlurOnIcon className='logo-icon'/>
   )
 }
 
