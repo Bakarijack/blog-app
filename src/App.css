@@ -9,10 +9,7 @@
   --Black2B: hsl(0deg 0% 16.86%);
   --Black77: hsl(0deg 0% 46.67%);
 
-  
-  
   box-sizing: border-box;
-
   font-size: calc(1vw + 0.6em);
 }
 
@@ -27,6 +24,7 @@ body{
     height: 1000px;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-
-
 }
+
+/* modules styles */
+
