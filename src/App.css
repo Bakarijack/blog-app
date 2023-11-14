@@ -87,5 +87,13 @@ svg.logo-icon{
  right: 0.1em;
  content: "\2261"; 
  font-size: 1.4em;
+}
 
+.menu-dropdown{
+  position: absolute;
+  right: -1em;
+  top: 3em;
+  padding: 1em 0.5em;
+  width: 50vw;
+  background-color: var(--purple50);
 }
