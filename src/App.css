@@ -27,4 +27,10 @@ body{
 }
 
 /* modules styles */
+.header{
+  position: fixed;
+}
 
+.header-nav{
+  padding: 0.5em 1em;
+}
