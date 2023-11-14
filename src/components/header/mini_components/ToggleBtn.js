@@ -1,8 +1,8 @@
 import React from 'react'
 
-const ToggleBtn = () => {
+const ToggleBtn = ({handleShow}) => {
   return (
-    <button className='menu-toggle'>toggle menu</button>
+    <button onClick={handleShow} className='menu-toggle'>toggle menu</button>
   )
 }
 
