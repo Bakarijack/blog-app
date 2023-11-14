@@ -3,7 +3,7 @@ import ToggleBtn from './ToggleBtn'
 
 const Menu = () => {
   return (
-    <nav>
+    <nav className='menu' >
       <ToggleBtn/>
     </nav>
   )
