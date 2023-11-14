@@ -27,10 +27,27 @@ body{
 }
 
 /* modules styles */
+/* header module styles*/
 .header{
   position: fixed;
 }
 
 .header-nav{
   padding: 0.5em 1em;
+}
+
+/* logo module styles */
+.logo{
+  display: flex;
+  text-decoration: none;
+  font-size: 1.4em;
+  align-items: center;
+  gap: 0.2em;
+  font-weight: 500;
+  color: var(--Black2B);
+}
+
+svg.logo-icon{
+  font-size: 2em;
+  color: var(--purple800);
 }
